@@ -2,6 +2,8 @@
 This is a simple Ansible torial with some playbook.yml example. <br/>
 <br/>
 There is 4 playbooks withs simle tasks<br/>
+run with:<br/>
+#ansible-playbook playbook.yml --extra_vars anlible_sudo_pass="mypass"<br/>
 1 Ping<br/>
 2 Install apache<br/>
 3 Install packeges and restart<br/>
