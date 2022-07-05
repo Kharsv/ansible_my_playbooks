@@ -1,6 +1,13 @@
 # ansible_my_playbooks <br/>
 This is a simple Ansible torial with some playbook.yml example. <br/>
-
+<br/>
+There is 4 playbooks withs simle tasks<br/>
+1 Ping<br/>
+2 Install apache<br/>
+3 Install packeges and restart<br/>
+file myfirstplaybook  - install jenkins<br/>
+<br/>
+<br/>
 1. Install ansible. Fedora. <br/>
 sudo dnf update <br/>
 sudo dnf install ansible <br/>
