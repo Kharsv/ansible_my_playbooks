@@ -9,8 +9,9 @@ run with:<br/>
 3 Install packeges and restart<br/>
 file first_playbook  - install jenkins<br/>
 <br/>
-<br/>
-1. Install ansible. Fedora. <br/>
+Set up.<br/>
+Install Fedora...<br/>
+1. Install ansible. <br/>
 sudo dnf update <br/>
 sudo dnf install ansible <br/>
 sudo dnf upgrade ansible <br/>
