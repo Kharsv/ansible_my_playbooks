@@ -1,0 +1,25 @@
+
+---
+- name: Install packages  htop, tmux, jq. And restart sshd
+  hosts: all
+  become: yes
+
+
+  tasks:
+  - name: Install htop
+    dnf: name=htop state=latest
+
+  - name: Install tmux
+    dnf: name=tmux state=latest
+
+  - name: Install jq
+    dnf: name=jq state=latest
+    notify: Restart ssh
+
+  - name: Start sshd
+    service: name=sshd state=started enabled=yes
+
+
+  handlers:
+  - name: Restart sshd
+    service: name=sshd state=restarted

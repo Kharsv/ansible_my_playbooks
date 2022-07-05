@@ -1,0 +1,10 @@
+
+#192.168.1.73    ansible_user=jcomic  ansible_pass=1234567890
+
+#[i_servers]
+#можно просто указать сервер, его IP,, а можно создать группу [i_servers] и обращаться к группе
+
+#можно присвоить имя, указать пользователя и его пароль
+192.168.1.73 ansible_ssh_user=jcomic ansible_ssh_pass=1234567890
+192.168.1.72 ansible_ssh_user=jcomic ansible_ssh_pass=1q2w3e4r
+

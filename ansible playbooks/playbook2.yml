@@ -1,0 +1,12 @@
+
+---
+- name: Install webserver
+  hosts: all
+  become: yes
+
+  tasks:
+  - name: install Apache webserver
+  - yam:  name=httpd state=latest
+
+  - name: Start Apshe
+  - service: name=httpd satte=started enable=yes
